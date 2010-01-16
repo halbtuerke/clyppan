@@ -137,6 +137,7 @@ const int AUTOSAVE_INTERVAL = 10*60;
 {
     [NSApp activateIgnoringOtherApps:YES]; 
     [mainWindow makeKeyAndOrderFront:self];
+    [searchField becomeFirstResponder];
 }
 
 /**
