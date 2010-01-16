@@ -57,6 +57,7 @@ extern int const AUTOSAVE_INTERVAL;
     NSStatusItem *statusItem;
     NSTimer *autoSaveTimer;
     IBOutlet NSTextField *statusTextField;
+    IBOutlet NSSearchField *searchField;
 }
 
 #pragma mark -
