@@ -37,6 +37,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CDA19C4B110226FB007C2776 /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EEE8DB1C103DF29600195ECA /* ShortcutRecorder.framework */; };
 		EE1428FF0F1D259A002F1FE7 /* OMHClippingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1428EF0F1D259A002F1FE7 /* OMHClippingController.m */; };
 		EE1429000F1D259A002F1FE7 /* OMHClippingsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1428F00F1D259A002F1FE7 /* OMHClippingsTableView.m */; };
 		EE1429010F1D259A002F1FE7 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1428F30F1D259A002F1FE7 /* AppController.m */; };
@@ -91,6 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				CDA19C4B110226FB007C2776 /* ShortcutRecorder.framework in Copy Frameworks */,
 				EE4A93E90F1F8845007DE4BF /* Sparkle.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
@@ -131,7 +133,7 @@
 		EE19C4BB0FA4E07E000537FE /* OMHImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMHImageTextCell.m; path = ../collections/Cells/OMHImageTextCell.m; sourceTree = SOURCE_ROOT; };
 		EE19C4E30FA4E5DA000537FE /* OMHGradientBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHGradientBackgroundView.h; path = Source/OMHGradientBackgroundView.h; sourceTree = SOURCE_ROOT; };
 		EE19C4E40FA4E5DA000537FE /* OMHGradientBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMHGradientBackgroundView.m; path = Source/OMHGradientBackgroundView.m; sourceTree = SOURCE_ROOT; };
-		EE29E98F1040874500651640 /* Unit tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unit tests.octest"; path = "build/Debug/Unit tests.octest"; sourceTree = "<group>"; };
+		EE29E98F1040874500651640 /* Unit tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE29E9901040874500651640 /* Unit tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit tests-Info.plist"; sourceTree = "<group>"; };
 		EE29E996104087A700651640 /* OMHHumanReadableDateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMHHumanReadableDateTest.h; sourceTree = "<group>"; };
 		EE29E997104087A700651640 /* OMHHumanReadableDateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMHHumanReadableDateTest.m; sourceTree = "<group>"; };
