@@ -93,9 +93,6 @@ const int AUTOSAVE_INTERVAL = 10*60;
     {
         [[OMHStatusItemWindowController sharedWindowController] showWindow:self];
     }
-    
-    // Create the status menu item
-    [self createStatusMenu];
  
     // Set self as delegate for handling hot keys
     [[OMHShortcutKey sharedShortcutKey] setDelegate:self];
