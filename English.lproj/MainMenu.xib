@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="593"/>
+			<integer value="541"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -80,10 +80,9 @@
 								<string key="NSToolbarItemPaletteLabel">Preview</string>
 								<nil key="NSToolbarItemToolTip"/>
 								<object class="NSButton" key="NSToolbarItemView" id="980055327">
-									<reference key="NSNextResponder"/>
+									<nil key="NSNextResponder"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{2, 14}, {45, 25}}</string>
-									<reference key="NSSuperview"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSButtonCell" key="NSCell" id="13394596">
 										<int key="NSCellFlags">-2080244224</int>
@@ -126,10 +125,9 @@
 								<string key="NSToolbarItemPaletteLabel">Action</string>
 								<nil key="NSToolbarItemToolTip"/>
 								<object class="NSPopUpButton" key="NSToolbarItemView" id="1014894734">
-									<reference key="NSNextResponder"/>
+									<nil key="NSNextResponder"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{0, 14}, {45, 25}}</string>
-									<reference key="NSSuperview"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSPopUpButtonCell" key="NSCell" id="493773614">
 										<int key="NSCellFlags">-2076049856</int>
@@ -308,10 +306,9 @@
 								<string key="NSToolbarItemPaletteLabel">Select</string>
 								<nil key="NSToolbarItemToolTip"/>
 								<object class="NSButton" key="NSToolbarItemView" id="944711133">
-									<reference key="NSNextResponder"/>
+									<nil key="NSNextResponder"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{0, 14}, {45, 25}}</string>
-									<reference key="NSSuperview"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSButtonCell" key="NSCell" id="101047900">
 										<int key="NSCellFlags">-2080244224</int>
@@ -350,10 +347,9 @@
 								<string key="NSToolbarItemPaletteLabel">Search</string>
 								<nil key="NSToolbarItemToolTip"/>
 								<object class="NSSearchField" key="NSToolbarItemView" id="214607653">
-									<reference key="NSNextResponder"/>
+									<nil key="NSNextResponder"/>
 									<int key="NSvFlags">268</int>
 									<string key="NSFrame">{{0, 14}, {170, 22}}</string>
-									<reference key="NSSuperview"/>
 									<bool key="NSEnabled">YES</bool>
 									<object class="NSSearchFieldCell" key="NSCell" id="140823254">
 										<int key="NSCellFlags">343014976</int>
@@ -627,7 +623,7 @@
 												<int key="NSColorSpace">3</int>
 												<bytes key="NSWhite">MC45MjAwMDAwMTY3AA</bytes>
 											</object>
-											<double key="NSRowHeight">38</double>
+											<double key="NSRowHeight">23</double>
 											<int key="NSTvFlags">314572800</int>
 											<reference key="NSDelegate"/>
 											<reference key="NSDataSource"/>
@@ -672,7 +668,7 @@
 							<reference key="NSVScroller" ref="795892822"/>
 							<reference key="NSHScroller" ref="682222602"/>
 							<reference key="NSContentView" ref="507919604"/>
-							<bytes key="NSScrollAmts">QSAAAEEgAABCIAAAQiAAAA</bytes>
+							<bytes key="NSScrollAmts">QSAAAEEgAABByAAAQcgAAA</bytes>
 						</object>
 						<object class="NSTextField" id="847959752">
 							<reference key="NSNextResponder" ref="823886803"/>
@@ -3584,9 +3580,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<integer value="1"/>
-					<string>{{327, 257}, {378, 319}}</string>
+					<string>{{579, 141}, {378, 319}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{327, 257}, {378, 319}}</string>
+					<string>{{579, 141}, {378, 319}}</string>
 					<integer value="1"/>
 					<boolean value="NO"/>
 					<integer value="1"/>
@@ -3651,7 +3647,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{208, 407}, {616, 169}}</string>
+					<string>{{208, 576}, {616, 0}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>{{85, 653}, {194, 183}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
