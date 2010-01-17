@@ -22,8 +22,8 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="2"/>
-			<integer value="3"/>
 			<integer value="1"/>
+			<integer value="3"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -91,6 +91,32 @@
 							</object>
 						</object>
 					</object>
+					<object class="NSTextField" id="182732737">
+						<reference key="NSNextResponder" ref="960231533"/>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{189, 90}, {103, 14}}</string>
+						<reference key="NSSuperview" ref="960231533"/>
+						<bool key="NSEnabled">YES</bool>
+						<object class="NSTextFieldCell" key="NSCell" id="721463737">
+							<int key="NSCellFlags">67239424</int>
+							<int key="NSCellFlags2">138543104</int>
+							<string key="NSContents">(needs a restart)</string>
+							<object class="NSFont" key="NSSupport" id="26">
+								<string key="NSName">LucidaGrande</string>
+								<double key="NSSize">11</double>
+								<int key="NSfFlags">3100</int>
+							</object>
+							<reference key="NSControlView" ref="182732737"/>
+							<object class="NSColor" key="NSBackgroundColor">
+								<int key="NSColorSpace">1</int>
+								<bytes key="NSRGB">MC44MDAwMDAwMTE5IDAuODAwMDAwMDExOSAwLjgwMDAwMDAxMTkAA</bytes>
+							</object>
+							<object class="NSColor" key="NSTextColor">
+								<int key="NSColorSpace">1</int>
+								<bytes key="NSRGB">MC4yMDAwMDAwMDMgMC4yMDAwMDAwMDMgMC4yMDAwMDAwMDMAA</bytes>
+							</object>
+						</object>
+					</object>
 					<object class="NSTextField" id="8485331">
 						<reference key="NSNextResponder" ref="960231533"/>
 						<int key="NSvFlags">268</int>
@@ -101,11 +127,7 @@
 							<int key="NSCellFlags">67239424</int>
 							<int key="NSCellFlags2">138543104</int>
 							<string key="NSContents">This setting will not take effect until a new clipping has been added to the clipboard.</string>
-							<object class="NSFont" key="NSSupport" id="26">
-								<string key="NSName">LucidaGrande</string>
-								<double key="NSSize">11</double>
-								<int key="NSfFlags">3100</int>
-							</object>
+							<reference key="NSSupport" ref="26"/>
 							<reference key="NSControlView" ref="8485331"/>
 							<object class="NSColor" key="NSBackgroundColor" id="870102633">
 								<int key="NSColorSpace">1</int>
@@ -309,7 +331,7 @@
 					<object class="NSButton" id="510847787">
 						<reference key="NSNextResponder" ref="960231533"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{44, 120}, {302, 18}}</string>
+						<string key="NSFrame">{{44, 88}, {302, 18}}</string>
 						<reference key="NSSuperview" ref="960231533"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="134558409">
@@ -336,7 +358,7 @@
 					<object class="NSButton" id="1033911860">
 						<reference key="NSNextResponder" ref="960231533"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{44, 140}, {302, 18}}</string>
+						<string key="NSFrame">{{44, 108}, {302, 18}}</string>
 						<reference key="NSSuperview" ref="960231533"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="648986557">
@@ -358,7 +380,7 @@
 					<object class="NSButton" id="425839628">
 						<reference key="NSNextResponder" ref="960231533"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{44, 160}, {302, 18}}</string>
+						<string key="NSFrame">{{44, 128}, {302, 18}}</string>
 						<reference key="NSSuperview" ref="960231533"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="3525578">
@@ -378,7 +400,7 @@
 						</object>
 					</object>
 				</object>
-				<string key="NSFrameSize">{398, 196}</string>
+				<string key="NSFrameSize">{398, 164}</string>
 				<reference key="NSSuperview"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -677,10 +699,6 @@
 				<string key="NSClassName">SUUpdater</string>
 			</object>
 			<object class="NSUserDefaultsController" id="296295855">
-				<object class="NSMutableArray" key="NSDeclaredKeys">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>hideMenuBarIcon</string>
-				</object>
 				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</object>
@@ -917,6 +935,7 @@
 							<reference ref="425839628"/>
 							<reference ref="1033911860"/>
 							<reference ref="510847787"/>
+							<reference ref="182732737"/>
 						</object>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">General</string>
@@ -1295,6 +1314,20 @@
 						<reference key="object" ref="134558409"/>
 						<reference key="parent" ref="510847787"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">110</int>
+						<reference key="object" ref="182732737"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="721463737"/>
+						</object>
+						<reference key="parent" ref="960231533"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">111</int>
+						<reference key="object" ref="721463737"/>
+						<reference key="parent" ref="182732737"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -1312,6 +1345,9 @@
 					<string>103.IBPluginDependency</string>
 					<string>106.IBPluginDependency</string>
 					<string>107.IBPluginDependency</string>
+					<string>110.IBPluginDependency</string>
+					<string>110.ImportedFromIB2</string>
+					<string>111.IBPluginDependency</string>
 					<string>12.IBPluginDependency</string>
 					<string>13.IBPluginDependency</string>
 					<string>14.IBPluginDependency</string>
@@ -1378,7 +1414,7 @@
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{361, 281}, {398, 196}}</string>
+					<string>{{361, 313}, {398, 164}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<boolean value="YES"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1387,6 +1423,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<boolean value="YES"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1468,7 +1507,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">109</int>
+			<int key="maxID">111</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
