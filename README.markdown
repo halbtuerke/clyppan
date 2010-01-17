@@ -2,33 +2,18 @@
 
 Clyppan is a Free and Open Source clipboard history application for Mac OS X that's always at your fingertips.
 
-![screenshot!](http://www.omh.cc/media/images/Picture_1_post.png)
+![screenshot!](http://download.schreiblogade.de/ss/clyppan_github_fork.png)
 
-# Installation
+# Changes in this fork #
 
-## Requirements
+* Increased number of clippings (300, 500, 1000)
+* Decreased the size of individual clippings
+* Option for disabling the menu bar icon
+* Option to focus the search field on activation
+* 64-bit
 
-To build Clyppan you need Xcode 3.1 and Leopard 10.5.6.
+For the original Clyppan have a look at [Clyppan's official site](http://www.omh.cc/clyppan/)
 
-
-## Building
-
-Create a new directory and clone Clyppan and the Collections repository:
-
-    mkdir clyppan-git
-    cd clyppan-git
-    git clone git://github.com/omh/clyppan.git
-    git clone git://github.com/omh/collections.git
-
-After cloning you should have a directory structure like this:
-
-    clyppan-git
-      |-- clyppan
-      |-- collections
-
-Open Interface Builder, go to Preferences -> Plug-ins, click the + button, browse to `clyppan-git/clyppan/Frameworks/` and add the `ShortcutRecorder.ibplugin`.
-
-To build open clyppan-git/clyppan/Clyppan.xcodeproj in Xcode and hit the build button.
 
 
 # License
