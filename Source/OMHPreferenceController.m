@@ -39,6 +39,7 @@ NSString *OMHRapidPasteModifierKey = @"rapidPasteModifier";
 NSString *OMHClippingPurgeLimitKey = @"clippingPurgeLimit";
 NSString *OMHAppHasLaunchedBeforeKey = @"hasLaunchedBefore";
 NSString *OMHHideAppOnDeactiveKey = @"hideOnDeactivate";
+NSString *OMHFocusSearchOnActivateKey = @"focusOnActivate";
 
 // Shortcut identifier constants.
 NSString *OMHShortcutActivateAppId = @"OMHActivateApp";
