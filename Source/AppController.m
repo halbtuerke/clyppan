@@ -81,6 +81,9 @@ const int AUTOSAVE_INTERVAL = 10*60;
     // Do not hide on deactivate by default
     [defaultValues setObject:[NSNumber numberWithBool:NO] forKey:OMHHideAppOnDeactiveKey];
     
+    // Do not focus search field on activation
+    [defaultValues setObject:[NSNumber numberWithBool:NO] forKey:OMHFocusSearchOnActivateKey];
+    
 	[[NSUserDefaults standardUserDefaults] registerDefaults:defaultValues];
 }
 
@@ -137,7 +140,10 @@ const int AUTOSAVE_INTERVAL = 10*60;
 {
     [NSApp activateIgnoringOtherApps:YES]; 
     [mainWindow makeKeyAndOrderFront:self];
-    [searchField becomeFirstResponder];
+    if ( [[NSUserDefaults standardUserDefaults] boolForKey:OMHFocusSearchOnActivateKey] )
+    {
+        [searchField becomeFirstResponder];
+    }
 }
 
 /**
