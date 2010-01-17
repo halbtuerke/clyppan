@@ -84,6 +84,9 @@ const int AUTOSAVE_INTERVAL = 10*60;
     // Do not focus search field on activation
     [defaultValues setObject:[NSNumber numberWithBool:NO] forKey:OMHFocusSearchOnActivateKey];
     
+    // Hide menu bar icon
+    [defaultValues setObject:[NSNumber numberWithBool:NO] forKey:OMHHideMenuBarIconKey];
+    
 	[[NSUserDefaults standardUserDefaults] registerDefaults:defaultValues];
 }
 
@@ -96,6 +99,12 @@ const int AUTOSAVE_INTERVAL = 10*60;
     {
         [[OMHStatusItemWindowController sharedWindowController] showWindow:self];
     }
+    
+    // Create the status menu item
+    if ( ![[NSUserDefaults standardUserDefaults] boolForKey:OMHHideMenuBarIconKey] )
+    {
+        [self createStatusMenu];
+    }    
  
     // Set self as delegate for handling hot keys
     [[OMHShortcutKey sharedShortcutKey] setDelegate:self];
