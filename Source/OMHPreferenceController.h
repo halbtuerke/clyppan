@@ -42,6 +42,7 @@ extern NSString *OMHClippingPurgeLimitKey;
 extern NSString *OMHAppHasLaunchedBeforeKey;
 extern NSString *OMHHideAppOnDeactiveKey;
 extern NSString *OMHFocusSearchOnActivateKey;
+extern NSString *OMHHideMenuBarIconKey;
 
 // Shortcut identifier constants.
 extern NSString *OMHShortcutActivateAppId;

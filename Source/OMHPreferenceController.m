@@ -40,6 +40,7 @@ NSString *OMHClippingPurgeLimitKey = @"clippingPurgeLimit";
 NSString *OMHAppHasLaunchedBeforeKey = @"hasLaunchedBefore";
 NSString *OMHHideAppOnDeactiveKey = @"hideOnDeactivate";
 NSString *OMHFocusSearchOnActivateKey = @"focusOnActivate";
+NSString *OMHHideMenuBarIconKey = @"hideMenuBarIcon";
 
 // Shortcut identifier constants.
 NSString *OMHShortcutActivateAppId = @"OMHActivateApp";
