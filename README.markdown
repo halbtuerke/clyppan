@@ -1,3 +1,5 @@
+# This project is no longer maintained
+
 # About
 
 Clyppan is a Free and Open Source clipboard history application for Mac OS X that's always at your fingertips.
